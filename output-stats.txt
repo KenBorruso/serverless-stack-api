@@ -1,0 +1,12 @@
+
+  POST - https://zn3wsn1tp3.execute-api.us-east-1.amazonaws.com/prod/notes
+  GET - https://zn3wsn1tp3.execute-api.us-east-1.amazonaws.com/prod/notes/{id}
+  GET - https://zn3wsn1tp3.execute-api.us-east-1.amazonaws.com/prod/notes
+  PUT - https://zn3wsn1tp3.execute-api.us-east-1.amazonaws.com/prod/notes/{id}
+  DELETE - https://zn3wsn1tp3.execute-api.us-east-1.amazonaws.com/prod/notes/{id}
+functions:
+  create: notes-api-prod-create
+  get: notes-api-prod-get
+  list: notes-api-prod-list
+  update: notes-api-prod-update
+  delete: notes-api-prod-delete
